@@ -29,24 +29,24 @@ const app = express();
 //set the environment variable PORT to tell your web server what port to listen on.
 const PORT = process.env.PORT || 3001;
 
-//set up Handlebars.js engine w/ custom helpers 
+//set up Handlebars.js engine w/ custom helpers
 const hdb = exphbs.create({ helpers });
 
 const sess = {
-    // required to sign the session ID cookie
-    secret: 'Choose the red pill or blue pill',
+  // required to sign the session ID cookie
+  secret: 'Choose the red pill or blue pill',
 
-    //session ID cookie
-    cookie: { maxAge: null},
+  //session ID cookie
+  cookie: { maxAge: null},
 
-    //false is typically suggested;
-    resave: false,
-    
-    saveUninitialized: true, 
+  //false is typically suggested;
+  resave: false,
 
-    store: new SequelizeStore({
-//connect sequelize with express and session to db
-    })
+  saveUninitialized: true,
+
+  store: new SequelizeStore({
+    //connect sequelize with express and session to db
+  })
 };
 //creates middleware for session
 app.use(session(sess));
@@ -62,7 +62,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(routes);
 
 sequelize.sync({ force: false }).then(() => {
-    app.listen(PORT, () => console.log(`Now listening on PORT: ${PORT}!`));
+  app.listen(PORT, () => console.log(`Now listening on PORT: ${PORT}!`));
 });
 
 
