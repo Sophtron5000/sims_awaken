@@ -30,3 +30,20 @@ router.get('/:id', (req, res) => {
     })
 });
 
+// when a user is loggedIn, user posts a comment, store texts, post and user ids 
+router.post('/', withAuth, (req, res) => {
+    if (req.session) {
+        // builds a new comment model instance and saves it
+        Comment.create({
+            comment_text: req.body.comment_text,
+            post_id: req.body.post_id,
+            user_id: req.session.user_id,
+        })
+        .then(dbCommentData => res.json(dbCommentData))
+        .catch(err => {
+            console.log(err);
+            res.status(400).json(err);
+        })
+    }
+});
+
