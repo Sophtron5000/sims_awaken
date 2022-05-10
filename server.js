@@ -29,7 +29,7 @@ const app = express();
 //set the environment variable PORT to tell your web server what port to listen on.
 const PORT = process.env.PORT || 3001;
 
-//set up Handlebars.js engine w/ customer helpers 
+//set up Handlebars.js engine w/ custom helpers 
 const hdb = exphbs.create({ helpers });
 
 const sess = {
@@ -48,6 +48,10 @@ const sess = {
         //connect sequelize with express and session to db
     })
 };
+//creates middleware for session
+app.use(session(sess));
+
+
 
 
 
