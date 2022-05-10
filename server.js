@@ -30,7 +30,8 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 //set up Handlebars.js engine w/ custom helpers
-const hdb = exphbs.create({ helpers });
+// eslint-disable-next-line no-unused-vars
+const hdlb = exphbs.create({ helpers });
 
 const sess = {
   // required to sign the session ID cookie
