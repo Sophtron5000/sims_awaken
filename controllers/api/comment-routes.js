@@ -1,7 +1,7 @@
 const router = require('express').Router();
 //import the Comment model for our routes
 const { Comment } = require('../../models');
-// make sure we connect to sequelize 
+// make sure we connect to sequelize
 // eslint-disable-next-line no-unused-vars
 const sequelize = require('../../config/connection');
 // requires users to be loggedIn in order to post or update comments
@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
     .catch(err => {
       console.log(err);
       res.status(500).json(err);
-    })
+    });
 });
 
 //click into a comment
@@ -28,10 +28,10 @@ router.get('/:id', (req, res) => {
     .catch(err => {
       console.log(err);
       res.status(500).json(err);
-    })
+    });
 });
 
-// when a user is loggedIn, user posts a comment, store texts, post and user ids 
+// when a user is loggedIn, user posts a comment, store texts, post and user ids
 router.post('/', withAuth, (req, res) => {
   if (req.session) {
     // builds a new comment model instance and saves it
@@ -44,7 +44,7 @@ router.post('/', withAuth, (req, res) => {
       .catch(err => {
         console.log(err);
         res.status(400).json(err);
-      })
+      });
   }
 });
 
@@ -68,4 +68,21 @@ router.put('/:id', withAuth, (req, res) => {
   });
 });
 
-
+//click on button that associates with comment id to delete a comment
+router.delete('/:id', withAuth, (req, res) => {
+  Comment.destroy({
+    where: {
+      id: req.params.id
+    }
+  }).then(dbCommentData => {
+    if (!dbCommentData) {
+      res.status(400).json({ message: 'No comment found with this id ' });
+      return;
+    }
+    res.json(dbCommentData);
+  }).catch(err => {
+    console.log(err);
+    res.status(500).json(err);
+  });
+});
+module.exports = router;
