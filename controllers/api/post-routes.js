@@ -78,3 +78,24 @@ router.get('/:id', (req, res) => {
     });
 });
 
+// when user clicks on update, the post-id data will be replaced with new ones
+router.put('/:id', withAuth, (req, res) => {
+    Post.update({
+        title: req.body.title,
+        content: req.body.content
+    }, {
+        where: {
+            id: req.params.id
+        }
+    }).then(dbPostData => {
+        if (!dbPostData) {
+            res.status(404).json({ message: 'No post found witht this id.'});
+            return;
+        }
+        res.json(dbPostData);
+    })
+    .catch(err => {
+        console.log(err);
+        res.status(500).json(err);
+    });
+});
