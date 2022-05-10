@@ -1,0 +1,23 @@
+[
+    {
+        "id": 01,
+        "user_id": 1,
+        "title": "Star Wars: Darth Vader",
+        "text": "In the original release of Star Wars, many people recall the famous line Darth Vader delivered to Luke Skywalker to be different. Towards the end of the film Empire Strikes Back, you may recall the scene where Darth Vader reveals he is Luke's father. If you watch the film today Darth Vader tells Luke that 'No, I am your father.' However, numerous people remember the quote as 'Luke, I am your father.'",
+        "date": "01/02/03"
+    },
+    {
+        "id": 02,
+        "user_id": 2,
+        "title":,
+        "text":,
+        "date":
+    },
+    {
+        "id": 03,
+        "user_id": 3,
+        "title":,
+        "text":,
+        "date":
+    }
+]
