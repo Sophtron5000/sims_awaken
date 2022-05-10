@@ -99,3 +99,19 @@ router.put('/:id', withAuth, (req, res) => {
         res.status(500).json(err);
     });
 });
+
+// when user clicks on delete, the data will be removed from db
+router.delete('/:id', withAuth, (req, res) => {
+    // delete multiple instances. on post/:id page, click the delete button will prompt FE form and sends a delete request back 
+    Post.destroy({
+        where: {
+            id: req.params.id
+        }
+    }).then(dbPostData => {
+        if (!dbPostData) {
+            res.status(404).json({ message: 'No post found with this id. '});
+        });
+    });
+
+    module.exports = router;
+    
