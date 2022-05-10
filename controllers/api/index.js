@@ -1,3 +1,4 @@
+//import the express router object
 const router = require('express').Router();
 
 // import User, Post, and Comment routes from api folder
