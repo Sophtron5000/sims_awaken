@@ -44,7 +44,7 @@ User.init( // Sequelize DT object to provide what type of data is it
       }
     },
     sequelize, // pass in our sequelize connection instance (the direct connection)
-    timestamps: false, 
+    timestamps: false,
     freezeTableName: true,
     underscored: true,
     modelName: 'user'
