@@ -23,3 +23,33 @@ const sequelize = require('./config/connection');
 
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
+
+const app = express();
+
+//set the environment variable PORT to tell your web server what port to listen on.
+const PORT = process.env.PORT || 3001;
+
+//set up Handlebars.js engine w/ customer helpers 
+const hdb = exphbs.create({ helpers });
+
+const sess = {
+    // required to sign the session ID cookie
+    secret: '',
+
+    //session ID cookie
+    cookie: { maxAge: null},
+
+    //false is typically suggested;
+    resave: false,
+    
+    saveUninitialized: true, 
+
+    store: new SequelizeStore({
+        //connect sequelize with express and session to db
+    })
+};
+
+
+
+
+}
