@@ -57,7 +57,7 @@ router.get('/signup', (req, res) {
 
 // user can view the single post when click on the post on the homepage
 // user can also add comments
-routerl.get('/post/:id', (req, res) => {
+router.get('/post/:id', (req, res) => {
     Post.findOne({
         where: {
             id: req.params.id
