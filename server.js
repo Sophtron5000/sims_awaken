@@ -47,14 +47,15 @@ const sess = {
 
   store: new SequelizeStore({
     //connect sequelize with express and session to db
+    db: sequelize
   })
 };
 //creates middleware for session
 app.use(session(sess));
 
 // tells express.js which template engine to utilize
-app.engine('handlebars', hbs.engine);
-app.set('view engine', 'handlebars');
+// app.engine('handlebars', hbs.engine);
+// app.set('view engine', 'handlebars');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true}));
