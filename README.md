@@ -1,6 +1,6 @@
 # Sims_Awaken 👽 👾
-<img width="70" alt ="Built with love badge" src ="http://ForTheBadge.com/images/badges/built-with-love.svg"/>
-<img width="70" alt ="Built by Developers badge" src= "http://ForTheBadge.com/images/badges/built-by-developers.svg"/>
+<img width="100" alt ="Built with love badge" src ="http://ForTheBadge.com/images/badges/built-with-love.svg"/>
+<img width="100" alt ="Built by Developers badge" src= "http://ForTheBadge.com/images/badges/built-by-developers.svg"/>
 
 -----------
 
@@ -79,7 +79,7 @@
 
 [Sequelize Dialect Specific Things](https://sequelize.org/master/manual/dialect-specific-things.html)
 
-[process.env](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7#:~:text=The%20process.,env.)
+
 -----------
 
 
