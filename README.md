@@ -2,9 +2,10 @@
 <img width="50" alt ="Built with love badge" src ="http://ForTheBadge.com/images/badges/built-with-love.svg"/>
 <img width="50" alt ="Built by Developers badge" src= "http://ForTheBadge.com/images/badges/built-by-developers.svg"/>
 
+-----------
 
 This is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This site is built completely from scratch and deployed on to Heroku. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
-<br>
+-----------
 
 # Collaborators
 
@@ -18,8 +19,7 @@ This is a CMS-style blog site similar to a Wordpress site, where developers can 
 <img width="50" alt ="GitHub badge" src ="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
 <img width="50" alt ="Gitlab badge" src ="https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white"/>
  </p>
-
-<br>
+-----------
 
 # OS 💻
 
@@ -27,6 +27,7 @@ This is a CMS-style blog site similar to a Wordpress site, where developers can 
 <img width="50" alt ="MacOS badge" src ="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white"/>
 <img width="50" alt ="Windows badge" src ="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"/>
 </p>
+-----------
 
 # Blog Posts Links 
  
@@ -35,7 +36,7 @@ This is a CMS-style blog site similar to a Wordpress site, where developers can 
 Sophia:
 YiLin:
 Asika:
-
+-----------
 
 # Skills/Technologies Used On Project
 <p float="center">
@@ -48,9 +49,8 @@ Asika:
 <img width="60" alt ="Heroku badge" src ="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"/>
 <img width="60" alt ="Eslint badge" src = "https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white"/>
 <img width="60" alt ="GIT badge" src ="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"/>
-
 </p>
-
+-----------
 
 
 # Resources
@@ -80,8 +80,7 @@ Asika:
 [Sequelize Dialect Specific Things](https://sequelize.org/master/manual/dialect-specific-things.html)
 
 [process.env](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7#:~:text=The%20process.,env.)
-
-<br>
+-----------
 
 
 <<img width="80" alt="badge1" src="https://img.shields.io/badge/License-MIT-lightgrey">
