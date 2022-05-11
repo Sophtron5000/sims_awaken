@@ -32,7 +32,7 @@ This is a CMS-style blog site similar to a Wordpress site, where developers can 
  
  <img width="80" alt ="Windows badge" src ="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"/>
 
-Sophia:https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"
+Sophia:
 YiLin:
 Asika:
 
@@ -53,8 +53,38 @@ Asika:
 
 
 
-<img width="80" alt="badge1" src="https://img.shields.io/badge/License-MIT-lightgrey">
-<h2>MIT License </h2>
+# Resources
+
+[foreignKey Sequelize](https://sequelize.org/master/class/lib/model.js~Model.html#static-method-hasMany)
+ 
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+ 
+[Sequelize v3 Clean Documentation](https://sequelize.org/v3/docs/associations/#:~:text=foreignKey%20will%20allow%20you%20to,key%20in%20the%20through%20relation.&text=Of%20course%20you%20can%20also,Person.)
+ 
+[Sequelize Associations](https://sequelize.org/v3/api/associations/)
+ 
+[Sequelize Querying](https://sequelize.org/v3/docs/querying/)
+
+[Sequelize Model Basics](https://sequelize.org/master/manual/model-basics.html)
+
+[Sequelize Getters and Setters](https://sequelize.org/master/manual/getters-setters-virtuals.html)
+
+[Sequelize Hooks](https://sequelize.org/v3/docs/hooks/)
+
+[Async/Await](https://stackoverflow.com/questions/43422932/async-await-always-returns-promise#:~:text=The%20await%20statement%20operates%20on,resolve%20s%20or%20reject%20s.&text=log%20on%20the%20result%20of,unwrap%20the%20Promise%20for%20you.)
+
+[MDN Docs: Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+
+[JavaScript Modules](https://stackify.com/node-js-module-exports/#:~:text=Module%20exports%20are%20the%20instruction,to%20access%20the%20exported%20code.)
+
+[Sequelize Dialect Specific Things](https://sequelize.org/master/manual/dialect-specific-things.html)
+
+[process.env](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7#:~:text=The%20process.,env.)
+
+<br>
+
+
+<<img width="80" alt="badge1" src="https://img.shields.io/badge/License-MIT-lightgrey">
 
 Copyright (c) 2022 Asika Habib, Yilin Ong, Sophia Custodia
 
