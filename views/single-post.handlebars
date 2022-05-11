@@ -4,7 +4,7 @@
 {{#if loggedIn}}
 <div class="card">
     <h3 class="card-header"></h3>
-    <form class="card-body comment-form" id="comment-form">
+    <form class="card-body comment-form editable" id="comment-form">
 
 <label class="form-label">Comment</label>
         <input id="comment" name="comment-body" class="form-input" />
@@ -19,3 +19,8 @@
 {{#if loggedIn}}
 <script src="/js/comment.js"></script>
 {{/if}}
+
+<script src="/public/js/medium-editor.js"></script>
+<script src="/public/js/edit-post.js"></script>
+<script src="/public/js/delete-post.js"></script>
+<script>var editor = new MediumEditor('.editable');</script>
