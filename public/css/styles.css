@@ -3,4 +3,82 @@
     max-width: 330px;
     padding: 15px;
     margin: auto;
+    color: #000000;
 }
+
+.container {
+    margin-top: 200px;
+    justify-content: center !important;
+    text-align: center !important;
+}
+.btn-signin {
+  color:rgb(49, 255, 17) !important;
+}
+
+.bluepill {
+    border-radius: 10px;
+    width: 200px;
+}
+
+.redpill {
+    border-radius: 10px;
+    width: 200px;
+}
+
+.signin {
+  font-family: 'Orbitron', sans-serif;
+  color:rgb(49, 255, 17) !important;
+}
+
+.whitepill {
+  border-radius: 10px;
+  width: 200px;
+}
+h1 {
+    width: 100%;
+    padding: 15px;
+    justify-content: center !important;
+    text-align: center;
+    font-size: 80px;
+
+}
+body {
+    font-family: 'Orbitron', sans-serif;
+    color:rgb(49, 255, 17) !important;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  
+.navbar a.navbar-brand {
+    font-family: 'Orbitron', sans-serif;
+    color:rgb(49, 255, 17) !important;
+    font-weight: 600;
+}
+
+/* Setting the style attributes to active and visited links */
+a:link {
+    font-family: 'Orbitron', sans-serif;
+    color:rgb(49, 255, 17) !important;
+    font-weight: 600;
+  }
+  
+  a:visited {
+    font-family: 'Orbitron', sans-serif;
+    color:rgb(49, 255, 17) !important;
+    font-weight: 600;
+  }
+  
+  a:hover {
+    font-family: 'Orbitron', sans-serif;
+    color:rgb(49, 255, 17) !important;
+    font-weight: 600;
+  }
+  
+  a:active {
+    font-family: 'Orbitron', sans-serif;
+    color:rgb(49, 255, 17) !important;
+    font-weight: 600;
+  }
