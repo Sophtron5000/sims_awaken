@@ -13,21 +13,21 @@ This is a CMS-style blog site similar to a Wordpress site, where developers can 
 # Group Work Technologies Used 🤝 
 
 <p float="center">
-<img width="50" alt ="slack badge" src ="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"/>
-<img width="50" alt ="discord badge" src ="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/>
-<img width="50" alt ="zoom badge" src ="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white"/>
-<img width="50" alt ="GitHub badge" src ="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
-<img width="50" alt ="Gitlab badge" src ="https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white"/>
+<img width="70" alt ="slack badge" src ="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"/>
+<img width="70" alt ="discord badge" src ="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/>
+<img width="70" alt ="zoom badge" src ="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white"/>
+<img width="70" alt ="GitHub badge" src ="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
+<img width="70" alt ="Gitlab badge" src ="https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white"/>
  </p>
------------
+
 
 # OS 💻
 
 <p float="center">
-<img width="50" alt ="MacOS badge" src ="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white"/>
-<img width="50" alt ="Windows badge" src ="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"/>
+<img width="80" alt ="MacOS badge" src ="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white"/>
+<img width="80" alt ="Windows badge" src ="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"/>
 </p>
------------
+
 
 # Blog Posts Links 
  
@@ -36,7 +36,7 @@ This is a CMS-style blog site similar to a Wordpress site, where developers can 
 Sophia:
 YiLin:
 Asika:
------------
+
 
 # Skills/Technologies Used On Project
 <p float="center">
@@ -50,7 +50,7 @@ Asika:
 <img width="60" alt ="Eslint badge" src = "https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white"/>
 <img width="60" alt ="GIT badge" src ="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"/>
 </p>
------------
+
 
 
 # Resources
@@ -83,7 +83,7 @@ Asika:
 -----------
 
 
-<<img width="80" alt="badge1" src="https://img.shields.io/badge/License-MIT-lightgrey">
+<img width="80" alt="badge1" src="https://img.shields.io/badge/License-MIT-lightgrey">
 
 Copyright (c) 2022 Asika Habib, Yilin Ong, Sophia Custodia
 
