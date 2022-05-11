@@ -3,21 +3,21 @@
         "id": 1,
         "user_id": 1,
         "title": "Star Wars: Darth Vader",
-        "text": "In the original release of Star Wars, many people recall the famous line Darth Vader delivered to Luke Skywalker to be different. Towards the end of the film Empire Strikes Back, you may recall the scene where Darth Vader reveals he is Luke's father. If you watch the film today Darth Vader tells Luke that 'No, I am your father.' However, numerous people remember the quote as 'Luke, I am your father.'",
-        "date": "01/02/22"
+        "content": "In the original release of Star Wars, many people recall the famous line Darth Vader delivered to Luke Skywalker to be different. Towards the end of the film Empire Strikes Back, you may recall the scene where Darth Vader reveals he is Luke's father. If you watch the film today Darth Vader tells Luke that 'No, I am your father.' However, numerous people remember the quote as 'Luke, I am your father.'"
     },
     {
         "id": 2,
         "user_id": 2,
         "title": "A family of Bears",
-        "text": "A popular children's book and television show, about a family of bears, has a title that people can't seem to agree on. The Berenstain Bears is how I've seen it spelled, but I can distintcly rememeber it spelled with an 'e', Berenstein Bears.",
-        "date": "03/04/22"
+        "content": "A popular children's book and television show, about a family of bears, has a title that people can't seem to agree on. The Berenstain Bears is how I've seen it spelled, but I can distintcly rememeber it spelled with an 'e', Berenstein Bears."
+
     },
     {
         "id": 3,
         "user_id": 3,
         "title": "Monopoly Man",
-        "text": "The mascot from the classic board game Monopoly seems different than what I remember. Didn't he have a monocle eye-piece?",
-        "date": "04/05/22"
+        "content": "The mascot from the classic board game Monopoly seems different than what I remember. Didn't he have a monocle eye-piece?"
+
     }
 ]
+
