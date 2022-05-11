@@ -1,11 +1,11 @@
 # Sims_Awaken 👽 👾
-<img width="50" alt ="Built with love badge" src ="http://ForTheBadge.com/images/badges/built-with-love.svg"/>
-<img width="50" alt ="Built by Developers badge" src= "http://ForTheBadge.com/images/badges/built-by-developers.svg"/>
+<img width="70" alt ="Built with love badge" src ="http://ForTheBadge.com/images/badges/built-with-love.svg"/>
+<img width="70" alt ="Built by Developers badge" src= "http://ForTheBadge.com/images/badges/built-by-developers.svg"/>
 
 -----------
 
-This is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This site is built completely from scratch and deployed on to Heroku. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
------------
+<h4>This is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This site is built completely from scratch and deployed on to Heroku. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.</h4>
+
 
 # Collaborators
 
@@ -33,9 +33,9 @@ This is a CMS-style blog site similar to a Wordpress site, where developers can 
  
  <img width="80" alt ="Windows badge" src ="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"/>
 
-Sophia:
-YiLin:
-Asika:
+<h5>Sophia:</h5>
+<h5>YiLin:</h5>
+<h5>Asika:</h5>
 
 
 # Skills/Technologies Used On Project
