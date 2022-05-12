@@ -1,8 +1,13 @@
 const router = require('express').Router();
+// eslint-disable-next-line no-unused-vars
 const sequelize = require('../config/connection');
 const { Post, User, Comment } = require('../models');
 const withAuth = require('../utils/auth');
 
+router.get('/new', withAuth, (req, res) => {
+  res.render('add-post');
+
+});
 router.get('/', withAuth, (req, res) => {
   Post.findAll({
     where: {
@@ -13,7 +18,7 @@ router.get('/', withAuth, (req, res) => {
       'id',
       'title',
       'created_at',
-      'post_content'
+      'content'
     ],
     include: [
       {
@@ -21,12 +26,12 @@ router.get('/', withAuth, (req, res) => {
         attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
         include: {
           model: User,
-          attributes: ['username', 'twitter', 'github']
+          attributes: ['username']
         }
       },
       {
         model: User,
-        attributes: ['username', 'twitter', 'github']
+        attributes: ['username']
       }
     ]
   })
@@ -50,7 +55,7 @@ router.get('/edit/:id', withAuth, (req, res) => {
       'id',
       'title',
       'created_at',
-      'post_content'
+      'content'
     ],
     include: [
       {
@@ -58,12 +63,12 @@ router.get('/edit/:id', withAuth, (req, res) => {
         attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
         include: {
           model: User,
-          attributes: ['username', 'twitter', 'github']
+          attributes: ['username']
         }
       },
       {
         model: User,
-        attributes: ['username', 'twitter', 'github']
+        attributes: ['username']
       }
     ]
   })
@@ -97,7 +102,7 @@ router.get('/create/', withAuth, (req, res) => {
       'id',
       'title',
       'created_at',
-      'post_content'
+      'content'
     ],
     include: [
       {
@@ -105,12 +110,12 @@ router.get('/create/', withAuth, (req, res) => {
         attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
         include: {
           model: User,
-          attributes: ['username', 'twitter', 'github']
+          attributes: ['username']
         }
       },
       {
         model: User,
-        attributes: ['username', 'twitter', 'github']
+        attributes: ['username']
       }
     ]
   })
