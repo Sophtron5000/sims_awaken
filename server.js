@@ -54,8 +54,8 @@ const sess = {
 app.use(session(sess));
 
 // tells express.js which template engine to utilize
-// app.engine('handlebars', hbs.engine);
-// app.set('view engine', 'handlebars');
+app.engine('handlebars', hdlb.engine);
+app.set('view engine', 'handlebars');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true}));
