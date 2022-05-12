@@ -1,12 +1,14 @@
 // add a function to correspond to the add-post form
 //get the values in add-post
-const title = document.querySelector('input[name="post-title"]').value;
-const content = document.querySelector('textarea[name="content"]').value;
+
 
 
 async function newFormHandler(event) {
   event.preventDefault();
+  const title = document.querySelector('input[name="post-title"]').value;
+  const content = document.querySelector('textarea[name="content"]').value;
 
+  console.log(document.querySelector('input[name="post-title"]'));
   const response = await fetch('/api/posts', {
     method: 'POST',
     body: JSON.stringify({
@@ -24,5 +26,5 @@ async function newFormHandler(event) {
   }
 }
 
-document.querySelector('#add-post-form').addEventListener('submit', newFormHandler);
+document.querySelector('.add-post-form').addEventListener('submit', newFormHandler);
 
