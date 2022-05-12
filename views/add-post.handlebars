@@ -1,6 +1,6 @@
 <div class="card">
-    <h3 class="card-header">Edit Post</h3>
-    <form class="card-body edit-post-form" id="edit-post-form">
+    <h3 class="card-header">Add Post</h3>
+    <form class="card-body add-post-form" id="add-post-form">
         <div class="form-floating mb-3">
         <label for="post-title" class="form-label"></label>
         <input name="post-title" type="text" placeholder="{{post.title}}" class="form-input w-100" />
@@ -11,12 +11,12 @@
         <textarea name="content" type="text" placeholder="{{post.content}}" class="form-input w-100 editable" style="height: 100px"/></textarea>
         </div>
 
-        {{!-- <button type="submit" class="w-100 btn btn-lg btn-info mb-3">Update Post</button> --}}
+        <button type="submit" class="w-100 btn btn-lg btn-info mb-3">Update Post</button>
         <button type="button" class="delete-post-btn w-100 btn btn-lg btn-danger mb-3">Delete Post</button>
     </form>
 </div>
 
 <script src="/js/medium-editor.js"></script>
-<script src="/js/edit-post.js"></script>
+<script src="/js/add-post.js"></script>
 <script src="/js/delete-post.js"></script>
 <script>var editor = new MediumEditor('.editable');</script>
