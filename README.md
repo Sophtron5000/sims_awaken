@@ -1,6 +1,6 @@
 # Sims_Awaken 👽 👾
 <img width="100" alt ="Built with love badge" src ="http://ForTheBadge.com/images/badges/built-with-love.svg"/>
-<img width="100" alt ="Built by Developers badge" src= "http://ForTheBadge.com/images/badges/built-by-developers.svg"/>
+<img width="200" alt ="Built by Developers badge" src= "http://ForTheBadge.com/images/badges/built-by-developers.svg"/>
 
 -----------
 
@@ -8,6 +8,9 @@
 
 
 # Collaborators
+<h3>Asika Habib </h3> https://github.com/toma95s
+<h3>YiLin Ong </h3> https://github.com/chaunnybby7
+<h3> Sophia Castodia</h3> https://github.com/Sophtron5000 
 
 
 # Group Work Technologies Used 🤝 
