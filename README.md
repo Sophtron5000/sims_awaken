@@ -32,13 +32,19 @@
 </p>
 
 
-# Blog Posts Links 
- 
- <img width="80" alt ="Windows badge" src ="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"/>
+# Code Snippets 
 
-<h5>Sophia:</h5>
-<h5>YiLin:</h5>
-<h5>Asika:</h5>
+Sign up Form: Here you can see how we called on a sign up form for our users.
+
+<img width="520" alt="Screen Shot 2022-05-17 at 10 25 47 AM" src="https://user-images.githubusercontent.com/101033224/168874102-ca76797a-1752-49c1-815c-4503ec3289d1.png">
+
+Delete Form: Here you can see how we called on a delete form for our users.
+
+<img width="323" alt="Screen Shot 2022-05-17 at 10 27 26 AM" src="https://user-images.githubusercontent.com/101033224/168874309-b125ccb8-c332-4b61-93b0-40ac5f115d4a.png">
+
+Add Post: Here you can see how we called on a delete form for our users.
+
+<img width="323" alt="Screen Shot 2022-05-17 at 10 27 26 AM" src="https://user-images.githubusercontent.com/101033224/168874603-36caf721-5d99-4d09-b1be-f6abbf6bde09.png">
 
 
 # Skills/Technologies Used On Project
